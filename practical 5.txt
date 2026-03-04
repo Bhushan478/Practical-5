@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f4f6f9;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #2c3e50;
+            color: white;
+        }
+        .section {
+            margin-top: 20px;
+        }
+        a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <!-- Header Section -->
+    <h1>John Doe</h1>
+    <img src="profile.jpg" alt="Profile Photo">
+
+    <p><strong>Email:</strong> <a href="mailto:johndoe@email.com">johndoe@email.com</a></p>
+    <p><strong>Phone:</strong> +1234567890</p>
+    <p>
+        <strong>LinkedIn:</strong> 
+        <a href="https://www.linkedin.com" target="_blank">linkedin.com/in/johndoe</a>
+    </p>
+    <p>
+        <strong>GitHub:</strong> 
+        <a href="https://github.com" target="_blank">github.com/johndoe</a>
+    </p>
+
+    <!-- Career Objective -->
+    <div class="section">
+        <h2>Career Objective</h2>
+        <p>
+            To obtain a challenging position in a reputable organization 
+            where I can utilize my skills and grow professionally.
+        </p>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Database Management</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>Institution</th>
+                <th>Year</th>
+                <th>Percentage</th>
+            </tr>
+            <tr>
+                <td>Bachelor of Technology (CSE)</td>
+                <td>ABC University</td>
+                <td>2023</td>
+                <td>85%</td>
+            </tr>
+            <tr>
+                <td>Higher Secondary</td>
+                <td>XYZ School</td>
+                <td>2019</td>
+                <td>90%</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Hobbies Section -->
+    <div class="section">
+        <h2>Hobbies</h2>
+        <ol>
+            <li>Reading Books</li>
+            <li>Traveling</li>
+            <li>Photography</li>
+        </ol>
+    </div>
+
+</div>
+
+</body>
+</html>
